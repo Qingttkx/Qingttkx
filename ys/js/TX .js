@@ -146,7 +146,7 @@ var rule = {
         let zp = d.filter(function (it) {
             return !(it.type && it.type !== "姝ｇ墖")
         });
-        VOD.vod_play_from = yg.length < 1 ? "鑵捐瑙嗛" : "鑵捐瑙嗛$$$鑵捐瑙嗛 棰勫憡鍙婅姳绲�";
+        VOD.vod_play_from = yg.length < 1 ? "鑵捐瑙嗛" : "qq$$$qq预告及花絮";
         VOD.vod_play_url = yg.length < 1 ? d.map(function (it) {
             return it.title + "$" + it.url
         }).join("#") : [zp, yg].map(function (it) {
